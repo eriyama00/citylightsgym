@@ -128,7 +128,7 @@ img {
 }
 
 .title p {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 73px;
   margin-left: 20px;
 }
@@ -327,7 +327,7 @@ align-items: flex-start;
     padding: 30px 20px;
   }
 
-  .movie iframe {
+  .movie img {
     height: 240px;
   }
 }
