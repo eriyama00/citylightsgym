@@ -255,6 +255,10 @@ align-items: flex-start;
   .header-logo {
     width: 100px;
   }
+  
+  header-logo {
+    height: 45px;
+  }
 
   .header-site-menu {
     position: absolute;
