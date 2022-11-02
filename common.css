@@ -113,6 +113,15 @@ img {
 
 .footer-site-menu {
   width: 25%;
+  max-height: 100px;
+  padding-left: 20px;
+  border-left: 1px solid #acacac;
+}
+
+.footer-site-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer-site-menu ul li {
@@ -220,10 +229,16 @@ img {
   .footer-site-menu {
     width: 80%;
     margin: 0 auto;
+    border-left: none;
+    max-height: 100%;
   }
 
   .footer-site-menu h3 {
     display: none;
+  }
+
+  .footer-site-menu ul  {
+    display: block;
   }
 
   .footer-site-menu ul li {
