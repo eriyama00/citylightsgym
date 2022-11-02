@@ -6,7 +6,8 @@
     <meta name="description" content="CITY LIGHTS GYMで自分らしく理想の体型へ">
     <meta name="viewport" content="width=device-width">
     <script src="https://eriyama00.github.io/citylightsgym/toggle-menu.js" charset="utf-8"></script>
-    <link href="https://eriyama00.github.io/citylightsgym/style.css" rel="stylesheet">
+    <link href="https://eriyama00.github.io/citylightsgym/common.css" rel="stylesheet" href="">
+    <link href="https://eriyama00.github.io/citylightsgym/concept.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
   <body>
     <header class="header">
       <div class="header-inner">
-        <a class="header-logo" href="#">
+        <a class="header-logo" href="./index.html">
           <img src="https://eriyama00.github.io/citylightsgym/citylights-logo.png" alt="CITY LIGHTS GYM">
         </a>
         <button class="toggle-menu-button"></button>
@@ -24,8 +25,8 @@
             <ul>
               <li><a href="#">CONCEPT</a></li>
               <li><a href="#">COURSE</a></li>
-              <li><a href="#">OPTION</a></li>
-              <li><a href="#">ACCESS</a></li>
+              <li> <a href="#">OPTION</a></li>
+              <li> <a href="#">ACCESS</a></li>
             </ul>
           </nav>
         </div>
@@ -34,12 +35,14 @@
     <!-- mainはここから -->
     <main class="main">
       <div class="title">
-        <h1>CONCEPT</h1>
-        <p>自分らしく理想へ</p>
+        <div class="wrapper">
+          <h1>CONCEPT</h1>
+          <p>自分らしく理想へ</p>
+        </div>
       </div>
         <div class="feature">
           <div class="feature-text">
-            <h2>忙しい時でもすきま時間にご利用ください</h2>
+            <h2>忙しい時でも、すきま時間にご利用ください</h2>
             <p>仕事やプライベートで忙しいとなかなか時間が取れない・・という時でも、ふらっと立ち寄っていただける空間を目指しています。営業時間が長いため仕事終わりでも気兼ねなくご利用いただけます。(平日は２４時まで営業)ご入会後は専用のパスカードを発行しますので、いつでも出入り自由。専用のウォーターサーバーやラウンジ、シャワールームは無制限でご利用いただけますので、ちょっとした休憩にご利用いただくことも可能。
           </div>
           <img src="https://eriyama00.github.io/citylightsgym/item01.png" alt="ビジネスマンとドリンク画像">
@@ -55,27 +58,31 @@
         </div>
       <div class="movie">
         <h2>TRAINER DEMO VIDEO</h2>
-        <img src="https://eriyama00.github.io/citylightsgym/youtube-DEMO.jpg" alt="権利の都合動画差し替え">
-        <p>当ジムは熟練のトレーナーが常時在籍しています。お気軽にお声がけください。目的別のグループレッスンも開催しております。</p>
+        <img src="https://eriyama00.github.io/citylightsgym/youtube-DEMO.jpg" alt="権利のため動画差し替え">
+        <p>
+          <span>当ジムは熟練のトレーナーが</span><span>常時在籍しています。</span><br><span>お気軽に</span><span>お声がけください。</span><br><span>目的別のグループレッスンも</span><span>開催しております。</span></p>
       </div>
     </main>
     <footer class="footer">
-      <nav class="site-menu">
-        <ul>
-          <li><a href="#">CONCEPT</a></li>
-          <li><a href="#">COURSE</a></li>
-          <li><a href="#">OPTION</a></li>
-          <li><a href="#">ACCESS</a></li>
-        </ul>
-      </nav>
       <div class="footer-contents">
-        <a class="footer-logo" href="#">
-          <img src="https://eriyama00.github.io/citylightsgym/citylights-logo.png" alt="CITY LIGHTS GYM">
-        </a>
-        <div class="footer-detail">
-          <p class="footer-tel">0120-4446-6789</p>
-          <p class="footer-time">MON-FRI 7:00-24:00<br>SAT-SUN 7:00-22:30</p>
+        <div class="footer-wrapper">
+          <a class="footer-logo" href="/index.html">
+            <img src="https://eriyama00.github.io/citylightsgym/citylights-logo.png" alt="CITY LIGHTS GYM">
+          </a>
+          <div class="footer-detail">
+            <p class="footer-tel">0120-4446-6789</p>
+            <p class="footer-time">MON-FRI 7:00-24:00<br>SAT-SUN 7:00-22:30</p>
+          </div>
         </div>
+        <nav class="footer-site-menu">
+          <h3>SITE MENU</h3>
+          <ul>
+            <li><a href="#">CONCEPT</a></li>
+            <li><a href="#">COURSE</a></li>
+            <li> <a href="#">OPTION</a></li>
+            <li> <a href="#">ACCESS</a></li>
+          </ul>
+        </nav>
       </div>
       <p class="copyright"><small>&copy;CITY LIGHTS GYM</small></p>
     </footer>
