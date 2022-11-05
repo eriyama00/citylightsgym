@@ -95,6 +95,10 @@ img {
   margin-right: 20px;
 }
 
+.footer-detail {
+  padding-left: 20px;
+}
+
 .footer-tel {
   font-size: 26px;
   font-weight: bold;
@@ -193,7 +197,7 @@ img {
     display: block;
     width: 44px;
     height: 34px;
-    background-image: url(https://eriyama00.github.io/citylightsgym/icon-menu.png);
+    background-image: url(./icon-menu.png);
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,6 +211,10 @@ img {
     padding-top: 50px;
   }
 
+  .footer {
+    padding-top: 33px;
+  }
+
   .footer-contents {
     flex-direction: column-reverse;
   }
@@ -214,7 +222,7 @@ img {
   .footer-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -227,10 +235,11 @@ img {
   }
 
   .footer-site-menu {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     border-left: none;
     max-height: 100%;
+    padding-left: 0;
   }
 
   .footer-site-menu h3 {
@@ -242,7 +251,8 @@ img {
   }
 
   .footer-site-menu ul li {
-    line-height: 4em;
+    line-height: 3em;
+    margin-top: 4px;
   }
 
   .footer-site-menu ul::after {
@@ -250,10 +260,7 @@ img {
     display: block;
     height: 1.5px;
     background-color: #acacac;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+    margin: 20px auto;
   }
 
   .copyright {
