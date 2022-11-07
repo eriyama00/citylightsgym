@@ -1,2 +1,2 @@
 # citylightsgym
-スポーツジム
+スポーツジム「City Lights Gym」のサイト
