@@ -179,9 +179,8 @@
 /* ここからレスポンシブ */
 @media (max-width: 800px) {
   .first-view {
-    height: calc(100vh - 220px);
+    height: calc(100vh - 200px);
     background-image: url(../images/index/top-main-sp.jpg);
-    align-items: flex-start;
   }
 
   .first-view-text {
@@ -202,6 +201,7 @@
   .lead {
     padding-left: 20px;
     padding-right: 20px;
+    margin: 90 auto;
   }
 
   .lead p {
